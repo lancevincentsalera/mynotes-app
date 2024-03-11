@@ -1,0 +1,44 @@
+.create-user {
+  margin-top: 50px;
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.create-user h1 {
+  margin-bottom: 20px;
+  color: #333; /* Dark gray text color */
+}
+
+.create-user form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-user label {
+  margin-bottom: 10px;
+  color: #555; /* Medium gray text color */
+}
+
+.create-user input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-user button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-user button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
