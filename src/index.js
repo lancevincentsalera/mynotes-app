@@ -9,6 +9,14 @@ import Notes from "./components/Notes/Notes";
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: (
+      <div>
+        PLEASE GO TO <strong>http://localhost:3000/create-user</strong>
+      </div>
+    ),
+  },
+  {
     path: "/create-user",
     element: <App />,
   },
