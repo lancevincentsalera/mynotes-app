@@ -30,6 +30,7 @@ textarea:focus {
 }
 
 .save {
+  color: #000;
   background-color: #e1e1e1;
   border: none;
   border-radius: 15px;
@@ -47,6 +48,44 @@ textarea:focus {
   justify-content: space-between;
 }
 
-h1 {
-  text-align: center;
+.note-container h1 {
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 20px; /* Add margin for spacing */
+  text-align: center; /* Center-align text */
+  color: #333; /* Change text color */
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  padding: 20px 40px; /* Add more padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items evenly */
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
 }

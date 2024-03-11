@@ -23,6 +23,10 @@ function App() {
   const createUser = async (event) => {
     event.preventDefault();
     try {
+      if (firstname === "" && lastname === "") {
+        alert("Invalid input");
+        return;
+      }
       const createUser = await axios.post(
         "http://hyeumine.com/newuser.php",
         {
@@ -42,7 +46,7 @@ function App() {
   };
 
   useEffect(() => {
-    if (id !== "")
+    if (id !== "" && lastname !== "" && firstname !== "")
       navigate("/add-notes", {
         state: { id: id, firstname: firstname, lastname: lastname },
       });

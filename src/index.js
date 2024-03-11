@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 import NewNote from "./components/AddNotes/NewNote";
+import Notes from "./components/Notes/Notes";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/add-notes",
     element: <NewNote />,
+  },
+  {
+    path: "/notes",
+    element: <Notes />,
   },
 ]);
 

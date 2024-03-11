@@ -1,0 +1,63 @@
+/* CSS for Notes Component */
+.notes-container {
+  margin: 20px auto; /* Center the container horizontally */
+  max-width: 800px; /* Limit the maximum width of the container */
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4a261; /* Light orange background color for each note */
+  border: 1px solid #e76f51; /* Border around each note */
+  border-radius: 5px; /* Rounded corners for the note */
+  padding: 10px; /* Padding inside each note */
+  margin-bottom: 10px; /* Add space between each note */
+}
+
+.note-content {
+  font-size: 16px; /* Font size for the note content */
+  color: #264653; /* Dark blue text color for the note content */
+  line-height: 1.5; /* Line height for better readability */
+}
+.user-details {
+  margin-bottom: 20px;
+}
+
+.user-details p {
+  margin: 0;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px 40px; /* Add more padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Align items evenly */
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
